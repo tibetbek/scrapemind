@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Scrape output (keep example_output.json)
+*.json
+!example_output.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp

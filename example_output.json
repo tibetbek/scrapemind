@@ -1,0 +1,17 @@
+{
+  "source": "https://example.com",
+  "query": "page title and any links",
+  "extractor": "heuristic-mock",
+  "data": {
+    "title": "Example Domain",
+    "headings": [
+      "Example Domain"
+    ],
+    "links": [
+      {
+        "text": "More information...",
+        "href": "https://www.iana.org/domains/example"
+      }
+    ]
+  }
+}
